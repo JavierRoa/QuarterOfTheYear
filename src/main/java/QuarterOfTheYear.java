@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class QuarterOfTheYear {
     public static void main(String[] args) {
         System.out.println(getQuarter("JANUARY"));
@@ -53,7 +51,7 @@ public class QuarterOfTheYear {
             case APR, MAY, JUN -> "2nd";
             case JUL, AUG, SEP -> "3th";
             case OCT, NOV, DEC -> "4th";
-            default -> "Bad";
+            default -> "The given input '" + month + "' is wrong";
         };
     }
 
